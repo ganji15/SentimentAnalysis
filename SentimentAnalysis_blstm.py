@@ -25,6 +25,7 @@ def build_model(max_seq_length, input_var = None, mask_var = None):
                                         mask_input = l_mask, only_return_final = True)
 
     l_concat = lasagne.layers.ConcatLayer([l_lstm, l_lstm_back])
+    print lasagne.layers.get_output_shape(l_concat)
 
     l_drop = lasagne.layers.DropoutLayer(l_concat, p = lstm_drop)
 
@@ -121,7 +122,7 @@ def train():
         if best_acc < acc:
             best_acc = acc
             cPickle.dump((input_var, mask_var, network), open(blstm_path, 'w'))
-            print 'save lstm to %s, best valid accuracy: %.2f%%\n'%(lstm_path, best_acc * 100)
+            print 'save blstm to %s, best valid accuracy: %.2f%%\n'%(blstm_path, best_acc * 100)
 
 
 def test():

@@ -6,12 +6,13 @@ test_dataset_path = '.\\dataset\\test.pkl'
 
 lstm_path = '.\\model\\lstm.pkl'
 blstm_path = '.\\model\\blstm.pkl'
-meanpooling_path = '.\\model\\meanpooling.pkl'
+meanpooling_lstm_path = '.\\model\\meanpooling_lstm.pkl'
+meanpooling_blstm_path = '.\\model\\meanpooling_blstm.pkl'
 
 data_dim = 1
 hiden_dim = 32
 word_dim = 128
-vocabulary_size = 100000
+vocabulary_size = 10000
 num_class = 2
 max_seq_length = 100
 
