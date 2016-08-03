@@ -1,6 +1,6 @@
 # SentimentAnalysis
 
-  'imdb.pkl' is a dataset for binary sentiment classification containing substantially more data than previous benchmark datasets. We use RNN architecture to solve this problem, such as lstm, blstm and special lstm. However, blstm and lstm using meanpooling gets the best results.
+  'imdb.pkl' is a dataset for binary sentiment classification containing substantially more data than previous benchmark datasets. We use RNN architecture to solve this problem, such as lstm, blstm and special lstm. However, 'blstm' and 'lstm using meanpooling' gets the best results.
 
 
 # Results
