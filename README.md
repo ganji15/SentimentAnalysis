@@ -13,3 +13,7 @@
 # Reference
 * [http://ai.stanford.edu/~amaas/data/sentiment/](http://ai.stanford.edu/~amaas/data/sentiment/)
 * [http://deeplearning.net/tutorial/lstm.html](http://deeplearning.net/tutorial/lstm.html)
+
+
+# Contacts
+ganji15@mails.ucas.ac.cn
